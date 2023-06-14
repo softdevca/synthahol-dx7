@@ -10,7 +10,7 @@ license = "MIT OR Apache-2.0"
 homepage = "https://github.com/softdevca/synthahol-dx7"
 repository = "https://github.com/softdevca/synthahol-dx7"
 keywords = ["audio", "synth", "patch", "preset", "dx7"]
-publish = false 
+publish = true
 
 [dependencies]
 lazy_static = "1.4.0"
