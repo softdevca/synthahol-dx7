@@ -1,0 +1,20 @@
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[package]
+name = "synthahol-dx7"
+version = "0.1.0"
+edition = "2021"
+authors = ["Sheldon Young <sheldon@softdev.ca>"]
+description = "Read presets for the Yamaha DX7 synthesizer"
+license = "MIT OR Apache-2.0"
+homepage = "https://github.com/softdevca/synthahol-dx7"
+repository = "https://github.com/softdevca/synthahol-dx7"
+keywords = ["audio", "synth", "patch", "preset", "dx7"]
+publish = false 
+
+[dependencies]
+lazy_static = "1.4.0"
+log = "0.4"
+
+[dev-dependencies]
+approx = "0.5"
