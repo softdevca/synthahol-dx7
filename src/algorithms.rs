@@ -415,7 +415,10 @@ mod tests {
                     unique.len(),
                     "Algorithm index {algorithm_index} contains duplicates"
                 );
-                assert!(!routing.is_empty(), "Algorithm index {algorithm_index} does not have an output for operator ID {operator_id}");
+                assert!(
+                    !routing.is_empty(),
+                    "Algorithm index {algorithm_index} does not have an output for operator ID {operator_id}"
+                );
             }
         }
     }

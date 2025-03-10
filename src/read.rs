@@ -40,7 +40,12 @@ impl Bank {
         let expected_checksum = byte_buf[0];
         let computed_checksum = checksum(&body);
         if computed_checksum != expected_checksum {
-            return Err(Error::new(ErrorKind::InvalidData, format!("Computed checksum {computed_checksum} does not match expected checksum {expected_checksum}")));
+            return Err(Error::new(
+                ErrorKind::InvalidData,
+                format!(
+                    "Computed checksum {computed_checksum} does not match expected checksum {expected_checksum}"
+                ),
+            ));
         }
 
         // Verify the end of SysEx marker

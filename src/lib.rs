@@ -6,7 +6,7 @@
 //!
 //! The series
 //! [Yamaha DX7 chip reverse-engineering](https://www.righto.com/2021/12/yamaha-dx7-chip-reverse-engineering.html)
-//! by Ken Sherriff is an useful reference on the hardware.
+//! by Ken Sherriff is a useful reference on the hardware.
 
 use std::fmt::{Display, Formatter};
 
