@@ -2,7 +2,7 @@
 
 [package]
 name = "synthahol-dx7"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2024"
 authors = ["Sheldon Young <sheldon@softdev.ca>"]
 description = "Read presets for the Yamaha DX7 synthesizer"
